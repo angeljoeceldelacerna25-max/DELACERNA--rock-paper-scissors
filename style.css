@@ -65,18 +65,38 @@ h1 {
    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-
 .choice-btn:hover {
    transform: translateY(-10px) scale(1.1);
    background: rgba(255, 255, 255, 0.3);
    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-
 .choice-btn:active {
    transform: translateY(-5px) scale(1.05);
 }
 
+.result {
+   font-size: 1.8em;
+   margin-bottom: 20px;
+   min-height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.win { color: #4CAF50; }
+.lose { color: #f44336; }
+.tie { color: #ff9800; }
+
+
+.hands {
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin: 30px 0;
+   flex-wrap: wrap;
+}
 
 
 
