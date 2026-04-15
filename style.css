@@ -97,6 +97,62 @@ h1 {
    margin: 30px 0;
    flex-wrap: wrap;
 }
+.hand {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 3em;
+}
+
+.hand-label {
+   margin-top: 10px;
+   font-size: 1.2em;
+}
+
+
+.reset-btn {
+   background: #ff6b6b;
+   color: white;
+   border: none;
+   padding: 12px 30px;
+   border-radius: 25px;
+   font-size: 1.1em;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+
+.reset-btn:hover {
+   background: #ff5252;
+   transform: translateY(-2px);
+   box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+
+@media (max-width: 600px) {
+   .game-container {
+       padding: 20px;
+       margin: 20px;
+   }
+  
+   h1 {
+       font-size: 2em;
+   }
+  
+   .choices {
+       gap: 15px;
+   }
+  
+   .choice-btn {
+       width: 80px;
+       height: 80px;
+       font-size: 1.5em;
+   }
+  
+   .hands {
+       gap: 30px;
+   }
+}
 
 
 
